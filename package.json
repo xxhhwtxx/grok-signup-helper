@@ -1,0 +1,23 @@
+{
+  "name": "grok-signup-helper",
+  "private": true,
+  "version": "0.1.2",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "test": "node --test scripts/*.test.mjs",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.1.1"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.1.0",
+    "jsdom": "26.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "vite": "^5.4.8"
+  },
+  "license": "MIT"
+}

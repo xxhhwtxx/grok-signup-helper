@@ -1,0 +1,23 @@
+# Dependencies & build outputs
+node_modules/
+dist/
+target/
+src-tauri/target/
+*.exe
+*.dll
+*.msi
+*.nsis
+*.log
+
+# Local personal credentials & runtime data (NEVER commit)
+accounts.json
+mailboxes.txt
+mail-defaults.json
+*.dpapi
+.env
+.env.*
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+desktop.ini

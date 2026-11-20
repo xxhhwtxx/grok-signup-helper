@@ -1,0 +1,1 @@
+{"identifier":"default", "description":"本地助手主窗口；外部注册页不授予本地命令权限", "windows":["main"], "permissions":["core:default", "dialog:default"]}
